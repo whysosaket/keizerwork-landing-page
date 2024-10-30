@@ -6,60 +6,60 @@ import {motion} from "framer-motion";
 const Projects = () => {
   return (
     <div className="max-w-screen relative overflow-hidden">
-         <div className="absolute pointer-events-none inset-0 z-50 flex items-center justify-center dark:bg-black bg-[#1A1A1A] bg-dot [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
+         <div className="absolute pointer-events-none inset-0 z-50 flex items-center justify-center  bg-[#1A1A1A] bg-dot [mask-image:radial-gradient(ellipse_at_center,transparent_10%,black)]"></div>
       <div className="perspective-1000">
         <div className="transform p-4 scale-[1.5] relative left-[35rem] rotate-x-[40deg] rotate-y-[20deg] -rotate-z-[30deg]">
           <div className="flex space-x-4">
             <div>
               <motion.img
-              initial={{ opacity: 0, x: 10, y: -50, scale: 1.2 }}
+              initial={{ opacity: 0, x: 0, y: 0, scale: 1.4 }}
               animate={{ opacity: 1, x: 0, y: 0, scale: 1 }}
-              transition={{ duration: 0.3, delay: 1.2 }}
+              transition={{ duration: 0.25, delay: 1.2 }}
               src={products[5].thumbnail} alt="p1" className="rounded-sm animate-unblur2 [animation-delay:_1.25s]" />
             </div>
             <div>
               <motion.img
-               initial={{ opacity: 0, x: 30, y: -50, scale: 1.2}}
+               initial={{ opacity: 0, x: 0, y: 0, scale: 1.4}}
                animate={{ opacity: 1, x: 0, y: 0, scale: 1 }}
-               transition={{ duration: 0.3, delay: 1.4 }}
-              src={products[1].thumbnail} alt="p2" className="rounded-sm animate-unblur2 [animation-delay:_1.45s]" />
+               transition={{ duration: 0.25, delay: 1.45 }}
+              src={products[1].thumbnail} alt="p2" className="rounded-sm animate-unblur2 [animation-delay:_1.5s]" />
             </div>
             <div>
               <motion.img
-               initial={{ opacity: 0, x: 50, y: -50, scale: 1.2}}
+               initial={{ opacity: 0, x: 0, y: 0, scale: 1.4}}
                animate={{ opacity: 1, x: 0, y: 0, scale: 1 }}
-               transition={{ duration: 0.3, delay: 1.6 }}
-              src={products[2].thumbnail} alt="p3" className="rounded-sm animate-unblur2 [animation-delay:_1.65s]" />
+               transition={{ duration: 0.25, delay: 1.7 }}
+              src={products[2].thumbnail} alt="p3" className="rounded-sm animate-unblur2 [animation-delay:_1.75s]" />
             </div>
             <div>
               <motion.img
-               initial={{ opacity: 0, x: 70, y: -50, scale: 1.2}}
+               initial={{ opacity: 0, x: 70, y: 0, scale: 1.4}}
                animate={{ opacity: 1, x: 0, y: 0, scale: 1 }}
-               transition={{ duration: 0.3, delay: 1.8 }}
-              src={products[3].thumbnail} alt="p3" className="rounded-sm animate-unblur2 [animation-delay:_1.85s]" />
+               transition={{ duration: 0.25, delay: 1.95 }}
+              src={products[3].thumbnail} alt="p3" className="rounded-sm animate-unblur2 [animation-delay:_2s]" />
             </div>
           </div>
           <div className="flex space-x-4 mt-4">
             <div>
               <motion.img
-               initial={{ opacity: 0, x: 10, y: 50, scale: 1.2}}
+               initial={{ opacity: 0, x: 0, y: 50, scale: 1.4}}
                animate={{ opacity: 1, x: 0, y: 0, scale: 1 }}
-               transition={{ duration: 0.3, delay: 2 }}
-              src={products[4].thumbnail} alt="p1" className="rounded-sm animate-unblur2 [animation-delay:_2.05s]" />
+               transition={{ duration: 0.25, delay: 2.2 }}
+              src={products[4].thumbnail} alt="p1" className="rounded-sm animate-unblur2 [animation-delay:_2.25s]" />
             </div>
             <div>
               <motion.img
-               initial={{ opacity: 0, x: 40, y: 50, scale: 1.2}}
+               initial={{ opacity: 0, x: 40, y: 50, scale: 1.4}}
                animate={{ opacity: 1, x: 0, y: 0, scale: 1 }}
-               transition={{ duration: 0.3, delay: 1.8 }}
-              src={products[5].thumbnail} alt="p2" className="rounded-sm animate-unblur2 [animation-delay:_1.85s]" />
+               transition={{ duration: 0.25, delay: 1.95 }}
+              src={products[5].thumbnail} alt="p2" className="rounded-sm animate-unblur2 [animation-delay:_2s]" />
             </div>
             <div>
               <motion.img
-               initial={{ opacity: 0, x: 70, y: 50, scale: 1.2}}
+               initial={{ opacity: 0, x: 70, y: 50, scale: 1.4}}
                animate={{ opacity: 1, x: 0, y: 0, scale: 1 }}
-               transition={{ duration: 0.3, delay: 1.6 }}
-                src={products[6].thumbnail} alt="p3" className="rounded-sm animate-unblur2 [animation-delay:_1.65s]" />
+               transition={{ duration: 0.25, delay: 1.7 }}
+                src={products[6].thumbnail} alt="p3" className="rounded-sm animate-unblur2 [animation-delay:_1.75s]" />
             </div>
           </div>
         </div>

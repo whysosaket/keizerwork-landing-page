@@ -7,6 +7,10 @@ body {
   background-color: rgb(26, 26, 26);
 }
 
+.a{
+  transition: all 0.45s;
+}
+
 .dot {
   position: absolute;
   inset: 0;

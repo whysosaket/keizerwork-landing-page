@@ -19,7 +19,7 @@ const config: Config = {
       animation: {
         spotlight: "spotlight 2s ease .75s 1 forwards",
         unblur: "unblur 1s ease-out forwards 0.2s",
-        unblur2: "unblur 0.5s ease-out forwards",
+        unblur2: "unblur 0.65s ease-out forwards",
         unblurWave: "unblurWave 1.5s ease-out forwards",
       },
       keyframes: {
