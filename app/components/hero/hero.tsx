@@ -1,11 +1,9 @@
-"use client"
-import React from "react";
+"use client";
 import { ChevronDown, Phone } from "lucide-react";
 import { FlipWords } from "@/components/ui/flip-words";
 
-
 const Hero = () => {
-    const words = ["new", "better", "faster", "smarter"];
+  const words = ["new", "better", "faster", "smarter"];
   return (
     <div className="w-full overflow-x-hidden">
       <div className="p-4 max-w-8xl mx-auto relative z-10 w-full pt-20 md:pt-0">
@@ -13,7 +11,9 @@ const Hero = () => {
           KeizerWorks <br />
         </h1>
         <h1 className="[animation-delay:_0.5s] opacity-0 text-4xl md:text-7xl font-bold animate-unblur text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50">
-          <span className="a">is the</span> <FlipWords words={words} className="text-neutral-300" /><span className="a">solution.</span>
+          <span className="a">is the</span>{" "}
+          <FlipWords words={words} className="text-neutral-300" />
+          <span className="a">solution.</span>
         </h1>
         <div className="[animation-delay:_0.75s] opacity-0 animate-unblur mt-4 font-normal text-base text-neutral-300 max-w-xl text-center mx-auto">
           At KeizerWorks, we bring ideas to life. Whether you&apos;re a budding

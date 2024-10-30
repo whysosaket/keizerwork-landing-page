@@ -11,10 +11,10 @@ const config: Config = {
   theme: {
     extend: {
       perspective: {
-        '1000': '1000px',
+        "1000": "1000px",
       },
       rotateY: {
-        '20': '20deg',
+        "20": "20deg",
       },
       animation: {
         spotlight: "spotlight 2s ease .75s 1 forwards",
@@ -38,9 +38,21 @@ const config: Config = {
           "100%": { filter: "blur(0px)", opacity: "1" },
         },
         unblurWave: {
-          "0%": { filter: "blur(10px)", opacity: "0", transform: "translateY(-10px)" },
-          "50%": { filter: "blur(5px)", opacity: "0.5", transform: "translateY(5px)" },
-          "100%": { filter: "blur(0px)", opacity: "1", transform: "translateY(0)" },
+          "0%": {
+            filter: "blur(10px)",
+            opacity: "0",
+            transform: "translateY(-10px)",
+          },
+          "50%": {
+            filter: "blur(5px)",
+            opacity: "0.5",
+            transform: "translateY(5px)",
+          },
+          "100%": {
+            filter: "blur(0px)",
+            opacity: "1",
+            transform: "translateY(0)",
+          },
         },
       },
       colors: {
@@ -102,7 +114,7 @@ const config: Config = {
             animationTimingFunction: value,
           }),
         },
-        { values: theme("transitionTimingFunction") }
+        { values: theme("transitionTimingFunction") },
       );
     }),
   ],
